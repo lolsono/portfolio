@@ -7,7 +7,7 @@ function NavBar() {
     <nav className="flex light-bg justify-space">
       <div className="logo white">
         <Link className="link-acceuil" to="/">
-          david
+          Félix Ottavi
         </Link>
       </div>
 
@@ -18,7 +18,9 @@ function NavBar() {
           </Link>
         </li>
         <li>
-          <p>futur lien</p>
+          <a className="link-acceuil" to="/">
+            Contactez-moi !
+          </a>
         </li>
       </ul>
     </nav>

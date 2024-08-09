@@ -147,6 +147,12 @@ nav ul li {
   padding-top: 5rem;
 }
 
+/* Gestion des carte pour les projets */
+.project-containner {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Footer */
 footer {
   padding: 2rem 5rem;

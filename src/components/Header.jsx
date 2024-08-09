@@ -6,14 +6,15 @@ function Header() {
       <NavBar />
       <div className="header flex light-bg">
         <div>
-          <button>Front-End Developer</button>
-          <h1 className="white">Talk is cheap.</h1>
-          <h1 className="white">Show me the code!</h1>
+          <button>Développeur Front-End Junior</button>
+          <h1 className="white">Passionné par le code.</h1>
+
           <p className="gray">
-            I design and code beautiful simple things, and I love what I do.
+            J'aime apprendre à coder et découvrir de nouvelles technologies !
           </p>
-          <a className="green" href="mailto:contact@blaiti.com">
-            Let&#39;s chat!
+
+          <a className="green" href="mailto:felix.ottavi14@gmail.com">
+            Télécharger mon CV
           </a>
         </div>
       </div>
