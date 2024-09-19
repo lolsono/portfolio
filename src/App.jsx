@@ -2,7 +2,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./Layouts/Navbar";
 import Skills from "./components/Skills";
-import Service from "./components/Services";
+import Service from "./components/about";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import { useEffect } from "react";
@@ -22,8 +22,8 @@ const App = () => {
     <div className="">
       <Navbar />
       <Hero />
-      <Skills />
       <Service />
+      <Skills />
       <Projects />
       <Contact />
       <footer className="p-3 text-center">

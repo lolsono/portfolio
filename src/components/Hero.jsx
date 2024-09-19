@@ -5,18 +5,13 @@ const Hero = () => {
 
   return (
     <section id="home" className="overflow-hidden">
-      <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
+      <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-center justify-center items-center">
         
         <div
           data-aos="slide-left"
           data-aos-delay="1200"
           className="absolute h-full md:w-4/12 w-8/12 top-0 right-0 bg-primaryLinear bottom-0 -z-10"
         >
-
-          <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
-            OTTAVI {" "}
-            <span className="text-dark_primary">Félix</span>
-          </h1>
 
         </div>
 
@@ -25,9 +20,13 @@ const Hero = () => {
           <h2>Developpeur web</h2>
           <br />
           
-          <p>Bienvenue sur le portfolio de Félix Ottavi, où l'innovation rencontre la créativité.</p>
+          <p>Bienvenue sur mon portfolio, où l'innovation rencontre la créativité.</p>
 
-          <div className="flex flex-col gap-10 mt-10">
+          <div className="flex justify-end gap-10 mt-10 md:justify-start">
+
+          <a  href="#about" className="btn hover:bg-white">
+            A propos
+          </a>
 
           </div>
         </div>
@@ -37,7 +36,7 @@ const Hero = () => {
           <img
             src={Hero_person}
             data-aos="slide-up"
-            alt="..."
+            alt="une image d ordinateur"
             className="h-full object-cover"
           />
         </div>
