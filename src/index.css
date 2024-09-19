@@ -1,211 +1,68 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;600;700&display=swap");
+/* Inria serif */
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:wght@700&display=swap");
+/* Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Paprika */
+@import url("https://fonts.googleapis.com/css2?family=Paprika&display=swap");
 
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto Mono";
-}
-* {
-  box-sizing: border-box;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-.dark-bg {
-  background-color: #25262a;
-}
-.light-bg {
-  background-color: #2d2e32;
-}
-.white {
-  color: #ffffff;
-}
-.gray {
-  color: #777777;
-}
-.green {
-  color: #4dba87;
-}
-.flex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.flex-full {
-  flex: 1;
-}
-.justify-space {
-  justify-content: space-between;
-}
-section {
-  padding: 5rem 5rem;
-}
-button {
-  border: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem 1rem;
-  color: #2d2e32;
-  font-size: 0.8rem;
-  font-weight: 600;
-  background-color: #4dba87;
-  cursor: pointer;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span {
+    @apply text-dark_primary;
+  }
+  h1 {
+    @apply font-Poppins lg:text-6xl text-3xl font-extrabold;
+  }
+  h2 {
+    @apply font-Inria text-5xl font-bold;
+  }
+  h3 {
+    @apply font-Paprika text-5xl;
+  }
+  h4 {
+    @apply md:text-4xl text-3xl !leading-relaxed font-Paprika;
+  }
+  h6 {
+    @apply font-Paprika font-bold text-[#253D57] leading-8;
+  }
+
+  p {
+    @apply font-Poppins text-[0.95rem];
+  }
+  button {
+    @apply font-Poppins;
+  }
+  input,
+  textarea {
+    @apply bg-transparent outline-none font-Poppins;
+  }
 }
 
-/* Header */
-nav {
-  padding: 1.1rem 5rem;
-}
-nav .logo {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-nav ul li {
-  list-style-type: none;
-  margin-left: 3rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-}
-.header {
-  justify-content: space-between;
-  padding: 1.1rem 5rem 0rem 5rem;
-}
-.header h1 {
-  margin: auto;
-  font-size: 3rem;
-  font-weight: 500;
-}
-.header p {
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-}
-.header button {
-  cursor: text;
-  margin-bottom: 1.5rem;
-}
-.header a {
-  font-size: 1.2rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-/* About */
-.about-card {
-  width: 90%;
-  padding: 2rem;
-  margin-top: 0.5em;
-  border-radius: 0.5rem;
-}
-.about-card h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.3rem;
-}
-.about-card p {
-  font-size: 0.8rem;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-.about-card span {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-decoration: underline;
-}
-.about-text h1 {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  font-weight: 500;
-  font-size: 2rem;
-}
-.about-text h3 {
-  margin-bottom: 1rem;
-  font-weight: 500;
-  font-size: 1.5rem;
-  font-style: italic;
-  text-align: justify;
-}
-.about-text p {
-  font-weight: 500;
-  font-size: 1rem;
-  text-align: justify;
-}
-.partners {
-  padding-top: 5rem;
-}
-
-/* Gestion des carte pour les projets */
-.project-containner {
-  display: flex;
-  flex-direction: row;
-}
-
-/* Footer */
-footer {
-  padding: 2rem 5rem;
-}
-footer span {
-  font-size: 1rem;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-footer ul li {
-  list-style-type: none;
-  margin-left: 1rem;
-}
-
-/* --------- Responsive Design --------- */
-@media (max-width: 768px) {
-  .flex {
-    row-gap: 2rem;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+@layer utilities {
+  .btn {
+    @apply py-2 px-9 border-2 rounded-md
+     border-dark_primary rounded-br-3xl font-medium;
   }
-  /* Header */
-  nav {
-    padding: 1rem 2rem;
-    flex-direction: row !important;
-    justify-content: space-between !important;
+  .title {
+    @apply md:text-3xl text-2xl;
   }
-  nav ul,
-  nav ul li,
-  .active {
-    display: none;
+  .subtitle {
+    @apply text-gray;
   }
-  .header {
-    padding: 2rem 2rem 0rem 2rem;
-  }
-  section {
-    padding: 1rem 2rem;
-  }
-  /* About */
-  .about-card {
-    width: 100%;
-  }
-  .about-card div {
-    flex-direction: row !important;
-    justify-content: space-between !important;
-  }
-  /* Footer */
-  footer ul {
-    column-gap: 1rem;
-    flex-direction: row !important;
-  }
-  footer ul li {
-    margin-left: 0;
-  }
+}
+.swiper-pagination-bullet {
+  @apply w-3 h-3 bg-dark_primary;
 }
