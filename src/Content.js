@@ -70,34 +70,30 @@ export const content = {
     skills_content: [
       {
         name: "Figma",
-        para: "Lorem ipsum text  teste",
+        para: "Gestion des maquettes UX/UI",
         logo: figma,
       },
       {
-        name: "Node js",
-        para: "Lorem ipsum text  dummy",
-        logo: nodejs,
-      },
-      {
         name: "Redux Toolkit",
-        para: "Lorem ipsum text  dummy",
+        para: "Gestion de l'état dans les applications React",
         logo: redux,
       },
       {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
+        name: "React",
+        para: "Bibliothèque JavaScript pour construire des interfaces utilisateur",
         logo: reactjs,
       },
       {
-        name: "Javascript ",
-        para: "Lorem ipsum text  dummy",
+        name: "JavaScript",
+        para: "Rend les pages web interactives et dynamiques",
         logo: javascript,
       },
       {
         name: "Sass",
-        para: "Lorem ipsum text  dummy",
+        para: "Préprocesseur CSS avec des fonctionnalités avancées",
         logo: sass,
-      },
+      }
+      
     ],
     icon: MdArrowForward,
   },
