@@ -75,25 +75,24 @@ export const content = {
       },
       {
         name: "Redux Toolkit",
-        para: "Gestion de l'état dans les applications React",
+        para: "gestion de l'état dans les applications React",
         logo: redux,
       },
       {
-        name: "React",
-        para: "Bibliothèque JavaScript pour construire des interfaces utilisateur",
+        name: "React js",
+        para: "bibliothèque JavaScript pour construire des interfaces utilisateur",
         logo: reactjs,
       },
       {
-        name: "JavaScript",
-        para: "Rend les pages web interactives et dynamiques",
+        name: "Javascript ",
+        para: "JavaScript rend les pages web interactives et dynamiques.",
         logo: javascript,
       },
       {
         name: "Sass",
-        para: "Préprocesseur CSS avec des fonctionnalités avancées",
+        para: "un préprocesseur CSS qui ajoute des fonctionnalités avancées",
         logo: sass,
-      }
-      
+      },
     ],
     icon: MdArrowForward,
   },
