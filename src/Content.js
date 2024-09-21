@@ -61,7 +61,7 @@ export const content = {
       },
       {
         title: "Nina Carducci",
-        para: "Nina Carudcci est également un projet de site d'une photographe freelance que nous avons optimisé pour les performances SEO.",
+        para: "Nina Carducci est également un projet de site d'une photographe freelance que nous avons optimisé pour les performances SEO.",
         logo: project3,
         link: "https://github.com/lolsono/ninacarducci"
       },
