@@ -1,14 +1,14 @@
+// icone pour la partie skill
 import figma from "./assets/images/Skills/figma.png";
 import javascript from "./assets/images/Skills/javascript.png";
 import redux from "./assets/images/Skills/redux.png";
 import reactjs from "./assets/images/Skills/react.png";
-import nodejs from "./assets/images/Skills/node.png";
 import sass from "./assets/images/Skills/sass.png";
 
-import project1 from "./assets/images/projects/ohmyfood.png";
-import project2 from "./assets/images/projects/avatar2.png";
-import project3 from "./assets/images/projects/ninacarducci.png";
-import project4 from "./assets/images/projects/avatar4.png";
+// image pour la partie porjet
+import project1 from "./assets/images/projects/ohmyfood.webp";
+import project2 from "./assets/images/projects/kasa.webp";
+import project3 from "./assets/images/projects/ninacarducci.webp";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -49,18 +49,21 @@ export const content = {
     projects_content: [
       {
         title: "OhMyFood",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Projet visant à réaliser des animations et des interactions avec les utilisateurs en utilisant HTML et Sass.",
         logo: project1,
+        link: "https://github.com/lolsono/Ohmyfood_ottavi_felix"
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Kasa",
+        para: "Projet de conception d'un site de location d'appartements, visant à gérer l'intégration des informations via une base de données avec JavaScript.",
         logo: project2,
+        link: "https://github.com/lolsono/kasa"
       },
       {
         title: "Nina Carducci",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Nina Carudcci est également un projet de site d'une photographe freelance que nous avons optimisé pour les performances SEO ainsi que pour la validation par WAVE.",
         logo: project3,
+        link: "https://github.com/lolsono/ninacarducci"
       },
     ],
   },
@@ -98,8 +101,6 @@ export const content = {
   },
 
   Contact: {
-    title: "Contect Me",
-    subtitle: "GET IN TOUCH",
     social_media: [
       {
         text: "felix.ottavi14@gmail.com",

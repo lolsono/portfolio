@@ -17,7 +17,7 @@ const Hero = () => {
 
         {/* first col */}
         <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>Developpeur web</h2>
+          <h2>Développeur Front-end</h2>
           <br />
           
           <p>Bienvenue sur mon portfolio, où l'innovation rencontre la créativité.</p>
