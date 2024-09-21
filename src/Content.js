@@ -19,6 +19,7 @@ import { BiUser } from "react-icons/bi";
 import { RiProjectorLine } from "react-icons/ri";
 import { MdOutlinePermContactCalendar } from "react-icons/md";
 import { GoPencil } from "react-icons/go";
+import { FaGithub } from "react-icons/fa";
 
 export const content = {
   
@@ -51,19 +52,22 @@ export const content = {
         title: "OhMyFood",
         para: "Projet visant à réaliser des animations et des interactions avec les utilisateurs en utilisant HTML et Sass.",
         logo: project1,
-        link: "https://github.com/lolsono/Ohmyfood_ottavi_felix"
+        link: "https://ohmyfood-ottavi-felix.netlify.app/",
+        linkTitle: "Site Web",
       },
       {
         title: "Kasa",
         para: "Projet de conception d'un site de location d'appartements, visant à gérer l'intégration des informations via une base de données avec JavaScript.",
         logo: project2,
-        link: "https://github.com/lolsono/kasa"
+        link: "https://github.com/lolsono/kasa",
+        linkTitle: "GitHub",
       },
       {
         title: "Nina Carducci",
         para: "Nina Carducci est également un projet de site d'une photographe freelance que nous avons optimisé pour les performances SEO.",
         logo: project3,
-        link: "https://github.com/lolsono/ninacarducci"
+        link: "https://ninacarducci-ottavi-felix.netlify.app/",
+        linkTitle: "Site Web",
       },
     ],
   },
@@ -116,6 +120,11 @@ export const content = {
         text: "félix ottavi",
         icon: FaLinkedin,
         link: "https://www.linkedin.com/in/félix-ottavi",
+      },
+      {
+        text: "lolsono",
+        icon: FaGithub,
+        link: "https://github.com/lolsono",
       },
     ],
   },
