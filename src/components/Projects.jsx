@@ -9,9 +9,9 @@ const Projects = () => {
         <h2 className="title" data-aos="fade-down">
           Projets
         </h2>
-        <h4 className="subtitle" data-aos="fade-down">
+        <h3 className=" text-4xl text-ligthText" data-aos="fade-down">
           Mes créations
-        </h4>
+        </h3>
         <br />
         <div className="flex gap-5 justify-between flex-wrap group">
           {projects.projects_content.map((content, i) => (
@@ -22,7 +22,7 @@ const Projects = () => {
               className="min-w-[14rem] duration-300 cursor-pointer border-2 border-slate-200 rounded-xl text-center bg-bg_light_primary p-6 flex-1 group md:group-hover:blur-sm md:hover:!blur-none flex flex-col"
             >
               <img src={content.logo} alt="..." className="mx-auto" />
-              <h6 className="my-3">{content.title}</h6>
+              <h4 className="my-3 text-base font-bold leading-8">{content.title}</h4>
               <p className="leading-7 mb-5">{content.para}</p>
               <div className="mt-auto flex justify-end">
                 <a href={content.link} className="btn hover:bg-white">

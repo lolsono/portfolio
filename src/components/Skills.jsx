@@ -28,7 +28,7 @@ const Skills = () => {
                 />
               </div>
               <div>
-                <h6>{skill.name}</h6>
+                <h3 className="text-lg font-bold leading-8">{skill.name}</h3>
                 <p className="italic">{skill.para}</p>
               </div>
             </div>

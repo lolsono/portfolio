@@ -19,18 +19,24 @@ const App = () => {
     });
   }, []);
   return (
-    <div className="">
-      <Navbar />
-      <Hero />
-      <Service />
-      <Skills />
-      <Projects />
-      <Contact />
-      <footer className="p-3 text-center">
-        <h6 className="mb-3">Ottavi Félix</h6>
-        <p>© All CopyRights Reserved 2024</p>
+    <>
+      <header>
+        <Navbar />
+        <Hero />
+      </header>
+
+      <main>
+        <Service />
+        <Skills />
+        <Projects />
+      </main>
+      
+      <footer className="text-center">
+        <Contact />
+        <h3 className="mb-3 pt-4 text-sm">Ottavi Félix</h3>
+        <p className="pb-5">© All CopyRights Reserved 2024</p>
       </footer>
-    </div>
+    </>
   );
 };
 
