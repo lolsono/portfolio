@@ -6,7 +6,7 @@ import reactjs from "./assets/images/Skills/react.png";
 import sass from "./assets/images/Skills/sass.png";
 
 // image pour la partie porjet
-import project1 from "./assets/images/projects/ohmyfood.webp";
+import project1 from "./assets/images/projects/photo_portfolio_perle.webp";
 import project2 from "./assets/images/projects/kasa.webp";
 import project3 from "./assets/images/projects/ninacarducci.webp";
 
@@ -49,10 +49,10 @@ export const content = {
   projects: {
     projects_content: [
       {
-        title: "OhMyFood",
-        para: "Projet visant à réaliser des animations et des interactions avec les utilisateurs en utilisant HTML et Sass.",
+        title: "Portfolio Perle Ottavi",
+        para: "Projet de création d'un portfolio pour une artiste avec un système administrateur pour ajouter et supprimer des projets via une base de données.",
         logo: project1,
-        link: "https://ohmyfood-ottavi-felix.netlify.app/",
+        link: "https://portfolio-perle-ottavi.netlify.app/",
         linkTitle: "Site Web",
       },
       {
